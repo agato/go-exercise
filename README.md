@@ -12,7 +12,7 @@
  環境の作り方の例など  
 
  1.2.  参考サイトなど  
-  基礎などはここをみよう
+  ここをを見ると結構載ってる  (https://qiita.com/tenntenn/items/0e33a4959250d1a55045)
   
 2. websocketを使ったチャットアプリの作成
 
@@ -20,23 +20,7 @@
  課題 [1.1 Swiftの基礎](./pages/day1/1-1_swift-basics.md)  
  プロジェクト [day1/1.1](../../tree/master/before/day1/1.1)  
 
- 2. プロパティの属性、メモリ（実演）aaa`10min`  
- 課題 [1.2 メモリ管理](./pages/day1/1-2_memory-management.md)  
- プロジェクト [day1/1.2](../../tree/master/before/day1/1.2)
-
- 3. ビューコントローラ（実演&実装）`20min`  
- 課題 [1.3.1 UIViewControllerのカスタマイズ（stroyboard）](./pages/day1/1-3-1_UIViewController-customization-storyboard.md)  
- 補足 [1.3.2 UIViewControllerのカスタマイズ（xib）](./pages/day1/1-3-2_UIViewController-customization-xib.md)  
- プロジェクト [day1/1.3](../../tree/master/before/day1/1.3)
-
- 4. モーダル（実演&実装）`20min`  
- 課題 [1.4.1 UIViewControllerのModalViewController（storyboard）](./pages/day1/1-4-1_ModalViewController-storyboard.md)  
- 補足 [1.4.2 UIViewControllerのModalViewController（xib）](./pages/day1/1-4-2_ModalViewController-xib.md)  
- プロジェクト [day1/1.4](../../tree/master/before/day1/1.4)
-
- 5. ライフサイクル（実演&実装）`5min`  
- 課題 [1.5 UIViewControllerのライフサイクル](./pages/day1/1-5_UIViewController-lifecycle.md)  
-
+ 
   # Awesome-name
 
 ![Badge Status](https://ci-as-a-service)
