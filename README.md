@@ -7,9 +7,9 @@
 
 ### カリキュラム
 
-1. [はじめに](./lesson/lesson1.md)
- 1.1. 環境構築
- 環境の作り方の例など  
+1. [環境構築（golangのサーバをdockerを使って立てよう)](./lesson/lesson1.md)  
+ 
+  
 
 2.  参考サイトなど  
   ここをを見ると結構載ってる  (https://qiita.com/tenntenn/items/0e33a4959250d1a55045)

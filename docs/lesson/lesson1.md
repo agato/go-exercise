@@ -1,11 +1,10 @@
-1.環境構築
+1.環境構築（golangのサーバをdockerを使って立てよう)
 
-dockerのインストールをする
-https://docs.docker.com/docker-for-mac/
+1.1. dockerのインストールをする  
+[こちらから](https://docs.docker.com/docker-for-mac/)
 
-参考)
-https://blog.golang.org/docker
-
+1.2. gitからサンプルcloneする
+[こちらから](https://docs.docker.com/docker-for-mac/)
 
 
 2.IDEを使い方(goland)

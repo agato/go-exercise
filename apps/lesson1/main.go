@@ -6,6 +6,7 @@ import (
 	"path/filepath"
 	"sync"
 	"text/template"
+	"os"
 )
 
 type templateHandler struct {
@@ -23,8 +24,12 @@ func (t *templateHandler) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 
 func main() {
 	http.Handle("/", &templateHandler{filename: "chat.html"})
-
-	if err := http.ListenAndServe(":8180", nil); err != nil {
-		log.Fatal("ListenAndServe", err)
+	port := os.Getenv("PORT")
+	if port == "" {
+		log.Fatal("PORT environment variable was not set")
+	}
+	err := http.ListenAndServe(":"+port, nil)
+	if err != nil {
+		log.Fatal("Could not listen: ", err)
 	}
 }
