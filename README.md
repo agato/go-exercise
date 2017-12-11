@@ -7,7 +7,7 @@
 
 ### カリキュラム
 
-1. [環境構築（golangのサーバをdockerを使って立てよう)](./lesson/lesson1.md)  
+1. [環境構築（golangのサーバをdockerを使って立てよう)](./docs/lesson/lesson1.md)  
  
   
 
