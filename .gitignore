@@ -15,3 +15,7 @@
 
 .idea/*
 gin-bin
+
+vendor
+
+glide.lock
