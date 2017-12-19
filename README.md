@@ -8,13 +8,13 @@
 ### カリキュラム
 
 1. [環境構築（golangのサーバをdockerを使って立てよう)](./docs/lesson/lesson1.md)  
- 
-  
+ dockerを使ってgoのサーバを立てます
 
-2.  参考サイトなど  
-  ここをを見ると結構載ってる  (https://qiita.com/tenntenn/items/0e33a4959250d1a55045)
+2. はじめてのgo   (http://cuto.unirita.co.jp/gostudy/)  
+  goの基礎文法などを見ていきます※2回に分けて見ていきます    
+  その他参考サイトなど (https://qiita.com/tenntenn/items/0e33a4959250d1a55045)
   
-2. websocketを使ったチャットアプリの作成
+3. websocketを使ったチャットアプリの作成
 
 3. 認証機能を実装してみよう
 

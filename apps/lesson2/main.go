@@ -9,6 +9,7 @@ import (
 	"os"
 	"agato/go-exercise/apps/lesson2/trace"
 	"flag"
+	"agato/go-exercise/apps/lesson2/client"
 )
 
 type templateHandler struct {
@@ -34,15 +35,15 @@ func main() {
 
 	flag.Parse() // フラグを解釈します
 
-	r := newRoom()
-	r.tracer = trace.New(os.Stdout)
+	r := client.NewRoom()
+	r.Tracer = trace.New(os.Stdout)
 	if port == "" {
 		log.Fatal("PORT environment variable was not set")
 	}
 
 	http.Handle("/room", r)
 
-	go r.run()
+	go r.Run()
 
 	log.Println("Webサーバーを開始します。ポート: ", port)
 
