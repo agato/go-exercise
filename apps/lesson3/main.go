@@ -1,15 +1,15 @@
 package main
 
 import (
+	"agato/go-exercise/apps/lesson3/client"
+	"agato/go-exercise/apps/lesson3/trace"
+	"flag"
 	"log"
 	"net/http"
+	"os"
 	"path/filepath"
 	"sync"
 	"text/template"
-	"os"
-	"agato/go-exercise/apps/lesson3/trace"
-	"flag"
-	"agato/go-exercise/apps/lesson3/client"
 )
 
 type templateHandler struct {
@@ -19,6 +19,7 @@ type templateHandler struct {
 }
 
 func (t *templateHandler) ServeHTTP(w http.ResponseWriter, r *http.Request) {
+	log.Println("create template1")
 	t.once.Do(func() {
 		t.templ = template.Must(template.ParseFiles(filepath.Join("templates", t.filename)))
 	})
@@ -31,7 +32,6 @@ func (t *templateHandler) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 func main() {
 	http.Handle("/", &templateHandler{filename: "chat.html"})
 	port := os.Getenv("PORT")
-
 
 	flag.Parse() // フラグを解釈します
 

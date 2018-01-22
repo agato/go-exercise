@@ -14,7 +14,7 @@
   goの基礎文法などを見ていきます※2回に分けて見ていきます    
   その他参考サイトなど (https://qiita.com/tenntenn/items/0e33a4959250d1a55045)
   
-3. websocketを使ったチャットアプリの作成
+3. [websocketを使ったチャットアプリの作成)](./docs/lesson/lesson3.md)  
 
 3. 認証機能を実装してみよう
 
