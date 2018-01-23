@@ -1,8 +1,8 @@
 package main
 
 import (
-	"agato/go-exercise/apps/lesson3/client"
-	"agato/go-exercise/apps/lesson3/trace"
+	"github.com/agato/go-exercise/apps/lesson3/client"
+	"github.com/agato/go-exercise/apps/lesson3/trace"
 	"flag"
 	"log"
 	"net/http"

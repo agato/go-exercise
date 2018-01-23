@@ -4,7 +4,7 @@ import (
 	"log"
 	"net/http"
 	"github.com/gorilla/websocket"
-	"agato/go-exercise/apps/lesson3/trace"
+	"github.com/agato/go-exercise/apps/lesson3/trace"
 	"fmt"
 )
 
